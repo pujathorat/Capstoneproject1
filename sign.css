@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .mydream {
+    display: flex;
+    height: 20px;
+    margin: 20px 50px;
+    font-weight: 600;
+    font-size: large;
+  }
+  
+  img {
+    display: flex;
+    margin-right: 10px;
+  }
+  .container {
+    min-height: 88vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-data {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 6px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+  }
+  
+  #form {
+    margin-top: 30px;
+  }
+  
+  .mail {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 17px;
+    color: rgba(20, 19, 19, 0.767);
+  }
+  
+  .password {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: rgba(20, 19, 19, 0.767);
+  }
+  
+  label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  
+  .input-box {
+    width: 100%;
+    margin: 5px 0px;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.11);
+    border: 1px;
+    border-radius: 7px;
+  }
+  
+  .eye {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    transform: translateY(30px);
+    flex-direction: row-reverse;
+  }
+  
+  .eye img {
+    width: 28px;
+    cursor: pointer;
+    color: rgb(117, 110, 110);
+  }
+  
+  .keep-signin {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(63, 60, 60);
+    margin-bottom: 17px;
+  }
+  
+  .checkbox {
+    display: flex;
+  }
+  
+  .forgot {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(15, 121, 219);
+    text-decoration: none;
+  }
+  
+  .input-checkbox {
+    margin-right: 7px;
+  }
+  
+  .Gmail button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 246, 246);
+    background-color: rgba(12, 108, 252, 0.774);
+    border-radius: 7px;
+    border: 1px solid;
+    margin-bottom: 17px;
+  }
+  
+  .options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-wrap: nowrap;
+    color: rgb(97, 92, 92);
+    margin-bottom: 17px;
+  }
+  
+  .line {
+    width: 130px;
+    height: 2px;
+    background-color: rgba(150, 148, 148, 0.178);
+  }
+  
+  .google {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgb(75, 71, 71);
+    border: 1px solid rgba(128, 128, 128, 0.336);
+    border-radius: 7px;
+    margin-bottom: 12px;
+  }
+  
+  .google img {
+    width: 28px;
+    padding-right: 5px;
+  }
+  .google a{
+    text-decoration: none;
+    color: #232836;
+  }
+  
+  .facebook {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgba(128, 128, 128, 0.336);
+    border-radius: 7px;
+    margin-bottom: 12px;
+    background-color: rgba(8, 11, 27, 0.815);
+    color: rgb(223, 227, 230);
+  }
+  
+  .facebook img {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 4px;
+  }
+  .facebook a{
+    text-decoration: none;
+    color: #f2f4f8;
+  }
+
+  .dont-accnt{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dont{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+  }
+  
+  .register {
+    margin-left: 3.5px;
+    color: rgb(27, 97, 226);
+    text-decoration: none;
+  }
+  

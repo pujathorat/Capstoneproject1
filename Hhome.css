@@ -1,0 +1,393 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.logo{
+    width:35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 20%;
+    color:white;
+    
+}
+.logo a{
+    text-decoration: none; 
+    color: rgb(15, 15, 15);
+    font-size:medium;
+    margin-left: 3px;
+    padding: 5px;
+}
+.logo a:hover{
+    color: rgb(48, 218, 203);
+}
+.navbar{
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: whitesmoke;
+    height:100px;
+}
+.nav-list{
+    width: 68%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.home{
+    margin-left: 105px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color:rgb(14, 10, 10);
+}
+.nav-list li a:hover{
+    color: rgb(48, 218, 203);
+}
+.rightNav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ width: 30%;
+ text-align: right;
+ margin-right: 5px;
+}
+.rightNav i{
+align-items: center;
+text-align: center;
+margin-right: 20px;
+margin-top: 28px;
+color: rgb(15, 14, 14);
+
+}
+.rightNav img{
+margin-left: 9px;
+align-items: center;
+justify-content: center;
+margin-top: 28px;
+border: 3px solid yellow;
+border-radius: 30px;
+
+}
+.banner {
+    width: 100%;
+    min-height: 500px;
+    background-image:url(./Imagessearch/banner1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    color: white;
+    font-weight: 900;
+    font-size:xx-large;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    color: whitesmoke;
+    font-size: larger;
+    margin-bottom: 5px;
+  }
+  
+  .info {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 130px;
+    position: relative;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: rgb(243, 236, 236);
+    transform: translateY(-30px);
+    background: linear-gradient(to bottom, rgb(235, 231, 231), white);
+    border: 1px solid rgba(230, 222, 222, 0.582);
+  }
+  
+  .info .map-box {
+    background: linear-gradient(to bottom, rgba(128, 128, 128, 0.116), white);
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 12px 60px 12px 10px;
+    border-radius: 10px;
+  }
+  
+  .info .map-box img {
+    margin-right: 5px;
+    width: 20px;
+  }
+  
+  .info .calender-box {
+    background: linear-gradient(to bottom, rgba(128, 128, 128, 0.116), white);
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 12px 40px 12px 10px;
+    border-radius: 10px;
+  }
+  
+  .info .calender-box img {
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  .info .guest-box {
+    background: linear-gradient(to bottom, rgba(128, 128, 128, 0.116), white);
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 12px 40px 12px 10px;
+    border-radius: 10px;
+  }
+  
+  .info .guest-box img {
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  .info .search-box {
+    background-color: rgb(97, 139, 218);
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+    border: transparent;
+  }
+  .search-box a{
+    text-decoration: none;
+  }
+  .caution-box {
+    display: flex;
+    align-items: center;
+    margin: 0px 60px;
+    padding: 20px;
+    background-color: rgba(250, 222, 98, 0.829);
+    border-radius: 10px;
+    font-weight: 500;
+  }
+  
+  .caution-box img {
+    width: 28px;
+    margin-right: 20px;
+  }
+  
+  .caution-box p b {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .caution-box p span {
+    color: rgb(22, 96, 192);
+  }
+  .vacation{
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .vacation p{
+    margin-top: 10px;
+    padding: 2px;
+  }
+  .vacation .images{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-direction: row;
+    
+  }
+  .images img{
+    width: 97%;
+    margin-top:20px;
+  }
+  .trip{
+    margin-top: 40px;
+    padding: 5px;
+  }
+  .inspire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:300px;
+    text-align: end;
+    margin-top: 30px;
+  }
+  .syd{
+  background-image: url(./homeimages/sydney.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 32%;
+  }
+  .syd h4{
+    margin-top: 210px;
+    align-items:left;
+    justify-content: left;
+    margin-right: 12px;
+    font-size: large;
+  }
+  .vegan{
+ background-image: url(./homeimages/vegan.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 32%;
+  }
+  .vegan h4{
+    margin-top: 210px;
+    align-items:center;
+    justify-content: center;
+    margin-right: 12px;
+    font-size: large;
+  }
+  .covid{
+ background-image: url(./homeimages/covid.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 32%;
+  }
+  .covid h4{
+    margin-top: 210px;
+    align-items:left;
+    justify-content: left;
+    margin-right: 12px;
+    font-size: large;
+  }
+  .pop{
+    margin-top: 40px;
+    padding: 5px;
+  }
+  .hotels{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+
+  }
+  .hotel1{
+    align-items:center;
+    width: 24%;
+    height: 220px;
+  }
+  .hotel2{
+    align-items:center;
+    width:24%;
+    height: 220px;
+  }
+  .hotel3{
+    align-items:center;
+    width: 25%;
+    height: 220px;
+  }
+  .hotel4{
+    align-items:center;
+    width: 26%;
+    height: 220px;
+  }
+  .mobile{
+    margin-top: 20px;
+    width: 98%;
+    background-image: url(./homeimages/mobile.jpg);
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    height:270px;
+  }
+  .mobile h3{
+    margin-left: 15px;
+    margin-top: 90px;
+
+  }
+  .mobile button{
+    background-color: rgb(46, 46, 214);
+    margin-top: 25px;
+    color: white;
+    margin-left: 15px;
+    width:160px;
+    height:30px;
+    border: 3px solid rgb(40, 40, 187);
+    border-radius: 2px;
+  }
+  .foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .foot div {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .foot p {
+    font-size: 12px;
+    color: rgb(61, 132, 238);
+  }
+  
+  .foot-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 40px 60px;
+  }
+  
+  .foot-info li {
+    list-style-type: none;
+  }
+  
+  .foot-info .blue-plane {
+    display: flex;
+    margin-top: 10px;
+    color: rgb(82, 73, 73);
+  }
+  
+  .foot-info .blue-plane img {
+    width: 20px;
+  }
+  
+  .foot-info .plane-info {
+    margin: 10px 25px;
+  }
+  
+  .foot-info span {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .foot-info .bold {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 35px;
+    color: rgb(82, 73, 73);
+  }
+  
+  .foot-info .blue {
+    margin-top: 6px;
+    color: rgb(34, 88, 204);
+  }

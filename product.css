@@ -1,0 +1,304 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.logo{
+    width:36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 19%;
+    color:white;
+    
+}
+.logo a{
+    text-decoration: none; 
+    color: rgb(15, 15, 15);
+    font-size:medium;
+    margin-left: 2px;
+}
+.logo a:hover{
+    color: rgb(48, 218, 203);
+}
+.navbar{
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: whitesmoke;
+    height:90px;
+}
+.nav-list{
+    width: 68%;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 110px;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.home{
+    margin-left: 105px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color:rgb(14, 10, 10);
+}
+.nav-list li a:hover{
+    color: rgb(48, 218, 203);
+}
+.rightNav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ width: 30%;
+ text-align: right;
+ margin-right: 5px;
+}
+.rightNav i{
+align-items: center;
+text-align: center;
+margin-right: 20px;
+margin-top: 28px;
+color: rgb(12, 11, 11);
+
+}
+.rightNav img{
+margin-left: 9px;
+align-items: center;
+justify-content: center;
+margin-top: 28px;
+border: 3px solid yellow;
+border-radius: 30px;
+}
+.tophotel{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 30px;
+    background-color: rgb(233, 229, 225);
+}
+.left img{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-bottom: 30px;
+    width:600px}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-right:10px;
+
+}
+.right img{
+   height:180px;
+   margin-left: 30px;
+   margin-bottom: 20px;
+   justify-content: space-between;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-top: 40px;
+
+}
+.links a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+}
+.overview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(236, 247, 247);
+    margin-top: 50px;
+}
+.lakeside{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:70%;
+    margin-left: 20px;
+}
+.Motel-- i{
+color:rgb(243, 204, 29);
+margin-top: 10px;
+}
+.Motel-- p{
+    margin-top: 10px;
+}
+.text-overview{
+    background-color: white;
+    padding: 6px;
+    margin-top: 20px;
+}
+div h4{
+    margin: 20px;
+    padding: 5px;
+    background-color: white;
+}
+.Top-facilities{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.Top-facilities a{
+    display:flex;
+    align-items: left;
+    text-decoration: none;
+    background-color: white;
+}
+.mapside{
+    width: 30%;
+    margin-right: 30px;
+}
+.buttons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(252, 239, 222);
+}
+.buttons button{
+    width: 23%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    border: 2px solid rgb(206, 202, 202);
+    border-radius: 4px;
+    padding: 2px;
+}
+.buttons i{
+    height:23px;
+}
+.buttons button a{
+    height:25px;
+    text-decoration: none;
+    background-color: rgb(50, 50, 224);
+    color: rgb(238, 240, 241);
+    width: 25px;
+    padding: 6px;
+}
+.bottom-images{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+ .img--{
+    display: flex;
+    justify-content: left;
+    background-image:url("./productimages/boy2.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:37%;
+    margin-top: 2px;
+}
+.caution-box {
+    display: flex;
+    align-items: center;
+    margin: 0px 60px;
+    padding: 20px;
+    background-color: rgba(248, 212, 168, 0.829);
+    border-radius: 10px;
+    font-weight: 500;
+  }
+  
+  .caution-box img {
+    width: 28px;
+    margin-right: 20px;
+  }
+  
+  .caution-box p b {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .caution-box p span {
+    color: rgb(22, 96, 192);
+  }
+
+  .foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .foot div {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .foot p {
+    font-size: 12px;
+    color: rgb(61, 132, 238);
+  }
+  
+  .foot-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 40px 60px;
+  }
+  
+  .foot-info li {
+    list-style-type: none;
+  }
+  
+  .foot-info .blue-plane {
+    display: flex;
+    margin-top: 10px;
+    color: rgb(82, 73, 73);
+  }
+  
+  .foot-info .blue-plane img {
+    width: 20px;
+  }
+  
+  .foot-info .plane-info {
+    margin: 10px 25px;
+  }
+  
+  .foot-info span {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .foot-info .bold {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 35px;
+    color: rgb(82, 73, 73);
+  }
+  
+  .foot-info .blue {
+    margin-top: 6px;
+    color: rgb(34, 88, 204);
+  }
